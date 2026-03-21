@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/seminar2/seminar2.iml" filepath="$PROJECT_DIR$/seminar2/seminar2.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar4_SimpleFactory/seminar4_SimpleFactory.iml" filepath="$PROJECT_DIR$/seminar4_SimpleFactory/seminar4_SimpleFactory.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar4_Singleton/seminar4_Singleton.iml" filepath="$PROJECT_DIR$/seminar4_Singleton/seminar4_Singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seminar5_Builder/seminar5_Builder.iml" filepath="$PROJECT_DIR$/seminar5_Builder/seminar5_Builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar6_FactoryMethod/seminar6_FactoryMethod.iml" filepath="$PROJECT_DIR$/seminar6_FactoryMethod/seminar6_FactoryMethod.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar6_Prototype/seminar6_Prototype.iml" filepath="$PROJECT_DIR$/seminar6_Prototype/seminar6_Prototype.iml" />
     </modules>
