@@ -1,0 +1,8 @@
+În cadrul aplicației spitalului, toate activitățile medicale și tranzacțiile trebuie
+ să fie înregistrate într-un jurnal de tip Log (fișier de monitorizare). Pentru a
+ asigura integritatea datelor și pentru a evita scrierea simultană din mai multe părți
+ ale aplicației care ar putea corupe fișierul, este necesar ca în întregul sistem să existe
+  o singură instanță a clasei care gestionează log-urile.
+
+Să se implementeze modulul care garantează că această clasă nu poate fi instanțiată de mai
+multe ori și oferă un punct unic de acces la nivel global pentru salvarea mesajelor de eroare sau confirmare.
