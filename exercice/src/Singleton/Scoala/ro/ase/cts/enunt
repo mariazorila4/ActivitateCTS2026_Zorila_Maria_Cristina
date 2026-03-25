@@ -1,0 +1,11 @@
+În cadrul unei unități școlare se dorește implementarea unui sistem informatic pentru
+ gestionarea notelor elevilor. Având în vedere că toate modificările de note, absențe
+  și medii trebuie să fie sincronizate în timp real și salvate într-o singură bază de
+   date centralizată, este critic ca în întreaga aplicație să existe o singură instanță
+    a clasei CatalogElectronic.
+
+Această clasă trebuie să gestioneze conexiunea la baza de date și să asigure faptul că
+ profesorii de la diferite materii nu creează instanțe separate ale catalogului, ceea ce
+  ar duce la pierderea consistenței datelor. Să se implementeze modulul care garantează
+   existența unui singur obiect de acest tip și care pune la dispoziție un punct de acces
+    global pentru înregistrarea notelor.

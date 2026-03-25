@@ -1,0 +1,18 @@
+La cafeneaua "Miau & Cafe", atmosfera este gestionată de o singură pisică alpha, pe nume Luna,
+ care deține rolul de ManagerSuprem. Deși în cafenea vin zilnic zeci de clienți și alte pisici
+  noi, Luna este singura care are voie să aprobe cine primește porția de recompense premium și
+   cine are voie să doarmă pe fotoliul de puf de la geam.
+
+Dezvoltatorii aplicației de gestiune a cafenelei trebuie să se asigure că în întregul sistem
+ există o singură instanță a obiectului care o reprezintă pe Luna. Nu este permis ca un ospătar
+  să creeze o "altă Lună" din greșeală, deoarece acest lucru ar crea haos în distribuirea
+  gustărilor și certuri între pisici.
+
+Să se implementeze modulul care:
+
+Garantează că în memorie există un singur obiect de tip ManagerSuprem.
+
+Oferă un punct de acces unic pentru ca personalul să poată verifica starea
+ de spirit a Lunei (ex: "fericită", "are chef de somn", "vrea pliculeț").
+
+Permite actualizarea stării de spirit a acesteia de fiecare dată când primește o atenție specială de la clienți.
