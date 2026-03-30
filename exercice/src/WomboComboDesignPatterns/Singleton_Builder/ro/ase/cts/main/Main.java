@@ -17,17 +17,11 @@ public class Main {
         Calculator calc4=new Calculator.Builder("AMD","HDD").
                 setAlimentareRapida(false).setPlacaVideoDedicata(true).setRam(64).build();
 
-        RegistruComenzi registruComenzi=RegistruComenzi.getInstance();
+        RegistruComenzi registru=RegistruComenzi.getInstance("eMag",10,7);
 
-        registruComenzi.adaugaComanda("Ionel",calc1);
-        registruComenzi.adaugaComanda("Irina", calc2);
-        registruComenzi.adaugaComanda("Miruna", calc3);
-        registruComenzi.adaugaComanda("Mirel",calc4);
-
-        registruComenzi.afiseazaComenzi();
-
-        RegistruComenzi altRegistru=RegistruComenzi.getInstance();
-        System.out.println("Instante identice? =>"+(registruComenzi==altRegistru));
-        altRegistru.afiseazaComenzi();
+        registru.preiaComanda("Ionel",calc1);
+        registru.preiaComanda("Irina",calc2);
+        registru.preiaComanda("Miruna",calc3);
+        registru.preiaComanda("Mirel",calc4);
     }
 }
