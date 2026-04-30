@@ -1,4 +1,4 @@
-package ro.ase.cts.clase;
+package cts.clase;
 
 public class NotaDePlata implements NotaDePlataAbstract{
     private float pret;

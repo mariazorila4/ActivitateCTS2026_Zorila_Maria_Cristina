@@ -1,6 +1,6 @@
-package ro.ase.cts.decorator;
+package cts.decorator;
 
-import ro.ase.cts.clase.NotaDePlata;
+import cts.clase.NotaDePlata;
 
 public class NotaDePlataPrintatNouAn extends NotaDePlataDecorator{
 

@@ -1,7 +1,7 @@
-package ro.ase.cts.decorator;
+package cts.decorator;
 
-import ro.ase.cts.clase.NotaDePlata;
-import ro.ase.cts.clase.NotaDePlataAbstract;
+import cts.clase.NotaDePlata;
+import cts.clase.NotaDePlataAbstract;
 
 public abstract class NotaDePlataDecorator implements NotaDePlataAbstract {
     protected NotaDePlata notaDePlata;
