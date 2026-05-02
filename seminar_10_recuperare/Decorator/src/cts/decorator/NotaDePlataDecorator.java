@@ -16,5 +16,5 @@ public abstract class NotaDePlataDecorator implements NotaDePlataAbstract {
         System.out.println("Nota de plata emisa");
     }
 
-    public abstract void printeazaFelicitare(String felicitare);
+    public abstract void printeazaFelicitare();
 }

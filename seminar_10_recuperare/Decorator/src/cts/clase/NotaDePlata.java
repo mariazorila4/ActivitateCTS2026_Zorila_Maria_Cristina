@@ -2,17 +2,17 @@ package cts.clase;
 
 public class NotaDePlata implements NotaDePlataAbstract{
     private float pret;
-    private String data;
+    private String nrMasa;
 
-    public NotaDePlata(float pret, String data) {
+    public NotaDePlata(float pret, String nrMasa) {
         super();
         this.pret = pret;
-        this.data = data;
+        this.nrMasa = nrMasa;
     }
 
     @Override
     public void printeazaNotaDePlata() {
-        System.out.println("Nota de plata este de "+pret+" si este emisa pe data de "+data);
+        System.out.println("Nota de plata este de "+pret+" si este emisa pt masa "+nrMasa);
     }
 
     public float getPret() {
@@ -24,12 +24,12 @@ public class NotaDePlata implements NotaDePlataAbstract{
         return this;
     }
 
-    public String getData() {
-        return data;
+    public String geNrMasa() {
+        return nrMasa;
     }
 
-    public NotaDePlata setData(String data) {
-        this.data = data;
+    public NotaDePlata setNrMasa(String nrMasa) {
+        this.nrMasa = nrMasa;
         return this;
     }
 }
